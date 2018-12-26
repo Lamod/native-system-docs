@@ -24,7 +24,7 @@ script:
 deploy:
   - provider: pages
     skip_cleanup: true
-    github_token: $YB_TOKENS
+    github_token: $YB_TOKEN
     local-dir: _book
     target_branch: gh-pages
     on:
